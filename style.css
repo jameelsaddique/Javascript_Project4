@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.calculateValue,.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.left_side,.right_side{
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+    
+}
+.left_side span,.right_side span{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    color: wheat;
+    font-size: 40px;
+}
+.Home_btns button,.guest_btns button{
+    padding: 5px 12px;
+    margin-top: 12px;
+    
+}
